@@ -1,6 +1,8 @@
 const cols = document.querySelectorAll('.col');
 const alertCopied = document.querySelector('.alert');
 const generateColors = document.querySelector('.generate > i');
+const generateColorsPar= document.querySelector('.generate');
+
 
 document.addEventListener('keydown', (event) => {
     event.preventDefault();
@@ -9,7 +11,7 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
-generateColors.addEventListener('click', () => {
+generateColors.addEventListener('touchstart', () => {
     setRandomColors()
     generateColors.classList.add('rotated')
 });
