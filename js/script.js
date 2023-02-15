@@ -11,7 +11,7 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
-generateColors.addEventListener('touchstart', () => {
+generateColorsPar.addEventListener('touchstart', () => {
     setRandomColors()
     generateColors.classList.add('rotated')
 });
