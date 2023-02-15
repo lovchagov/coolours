@@ -51,6 +51,17 @@ button:hover {
     border-radius: 10px;
 }
 
+@media (max-width:480px) {
+    button:hover {
+        background: transparent;
+        border-radius: 10px;
+    }
+    button:active{
+        background: rgba(0, 0, 0, 0.1);
+    }
+}
+
+
 .alert {
     left: 1%;
     top: 1%;
